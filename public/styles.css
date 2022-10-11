@@ -48,10 +48,17 @@ footer p {
 .note h1 {
   font-size: 1.1em;
   margin-bottom: 6px;
+  text-align: center;
 }
+.note hr {
+  height: 2px;
+  background-color: #E2DCC8;
+  border: 0;
+}
+
 .note p {
   font-size: 1.1em;
-  margin-bottom: 10px;
+  margin: 10px 0px;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
@@ -100,4 +107,8 @@ form.create-note button {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   outline: none;
+}
+
+::placeholder {
+  color:#E2DCC8
 }
